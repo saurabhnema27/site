@@ -4,6 +4,18 @@ body{
     font-weight: 500;
 }
 
+a{
+    text-decoration: none;
+}
+
+.logo{
+    position: absolute;
+    height: 3em;
+    width: auto;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
 .image{
     position: absolute;
     height: auto;
@@ -19,7 +31,6 @@ body{
 .navlinks{
     display: inline-flex;
     list-style: none;
-    margin-left: 7em;
 }
 
 .links{
@@ -38,6 +49,7 @@ body{
 
 .auth{
     padding-left: 43px;
+    text-decoration: line-through;
 }
 
 .about{
@@ -60,4 +72,51 @@ body{
 
 .tech-head{
     margin-left: 30em;
+}
+
+.btn{
+    margin-left: 7em;
+    border: 1px solid;
+    border-radius: 6px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background-color: cornsilk;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-decoration: none;
+}
+
+.probtn{
+    margin-left: 1em;
+    text-decoration: none;
+}
+
+.space{
+    margin-left: 3em;
+}
+.cont-det{
+    margin-left: 22px;
+}
+
+/* media */
+
+@media only screen and (min-width:0px) and (max-width:320px)
+{
+    .image{
+        display: none;
+    }
+    .about{
+        margin-left: 4em;
+        position: "";
+        margin-right: 4em;
+    }
+    .navbar{
+
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 19em;
+        margin-left: 18em;
+    }
 }

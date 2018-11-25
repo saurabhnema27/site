@@ -5,18 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Saurabh Nema - A place for Developer to Developer.</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div>
+    <img src="logo.png" alt="logoimage" class="logo">
     <img src="php.png" alt="image" class="image">
   <div class="navbar">
     <ul class="navlinks">
-      <li class="links">About</li>
-      <li class="links">Technologies</li>
-      <li class="links">Project</li>
-      <li class="links">Contact-Me</li>
-      <li class="links">Blog</li>
+      <a href="#about"><li class="links">About</li></a>
+      <a href="#tech-head"><li class="links">Technologies</li></a>
+      <a href="#projects"><li class="links">Project</li></a>
+      <a href="#Edm"><li class="links">Edms Jams</li></a>
+      <a href="#contact"></a><li class="links">Contact-Me</li></a>
     </ul>
     <ul class="login">
       <li class="auth">Login</li>
@@ -24,26 +26,77 @@
     </ul>
   </div>
 </div>
-<div class="about">
+<div class="about" id="about">
   <h3>About Me</h3>
-  <p class="about-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  <p class="about-para">Software Engineering Graduate. Currently working as Blockchain Developer at AryuPay and AryuCoin, creating solutions for migrants and their unbanked families using Blockchain Technology. Interested in Blockchain using Ethereum, HyperLedger, Neo, Stellar, Ripple and Backend Development using NodeJS, MongoDB, Truffle and Web3Js. Also interested in integrating Blockchain technology with the current technologies and with zeal to know more python, worked on sone standard library's and django framework love to explore more in this and have put some efforts towards php with laravel.</p>
 </div>
 <br>
-<h3 class="tech-head"> Technologies</h3>
+<h3 class="tech-head" id="tech-head"> Technologies</h3>
 <br>
 <div class="grid">
   <div>
     <img class="python" src="python.png" height="183">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>I've an keen intrest to dive in python because of it's rich libs and Open source make it more easy to work on it.</p>
   </div>
   <div>
     <img class="python" src="sql.png" height="183">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>For every programming it's an pillar which we need that's is Database and i know about Sql, and Nosql.</p>
   </div>
   <div>
     <img class="python" src="djlara.png" height="183">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>For every core language we need a MVC or a real world prototype which we can follow to achieve our goals for python I'm using Django and for php I'm using laravel.</p>
   </div>
 </div>
+<div class = "project" id="projects">
+  <h3 class="tech-head">Projects</h3>
+  <div class="grid">
+      <div>
+          <img class="python" src="aryupay.jpg" height="183">
+          <p>This is a website which is made on the <strong>PHP Framework "Laravel"</strong> Which help user contact with us and see all the services of a website.<a href="wwww.aryupaytech.com" class="probtn" target="_blank">Link</a></a></p>
+        </div>
+        <div>
+          <img class="python" src="speech.png" height="183">
+          <p>This is a script which is written on python which collects your voice as input and return's you a output accordingly.<a href="wwww.github.io/saurabhnema27/dynamo" class="probtn" target="_blank">Link</a></p>
+        </div>
+        <div>
+          <img class="python" src="blog.png" height="183">
+          <p>This is a blog website which is based on <strong>Laravel</strong> Which helps user to write it's own blog, edit, delete.<a href="wwww.github.io/saurabhnema27" class="probtn" target="_blank">Link</a></p>
+        </div>
+  </div>
+</div>
+<div class = "Edm" id="Edm">
+    <h3 class="tech-head">Edm Jams</h3>
+    <div class="grid">
+        <div>
+            <img class="python" src="monkey.jpg" height="183">
+            <p><a href="https://www.youtube.com/watch?v=_4xWdyfc9BA" class="btn" target="_blank">Link</a></a></p>
+          </div>
+          <div>
+            <img class="python" src="jam.jpg" height="183">
+            <p><a href="https://www.youtube.com/watch?v=xD6p258n8_0" class="btn" target="_blank">Link</a></p>
+          </div>
+          <div>
+            <img class="python" src="urban.jpg" height="183">
+            <p><a href="https://www.youtube.com/watch?v=jVHi-UYitFs" class="btn" target="_blank">Link</a></p>
+          </div>
+    </div>
+  </div>
+  <br>
+  <div class = "contact" id="contact">
+      <h3 class="tech-head">Contact-Me</h3>
+      <div class="grid">
+          <div>
+              <img class="python" src="contact.png" height="130">
+            </div>
+            <div class="space">
+              <p><i class="far fa-envelope"></i>: saurabhnemabhopal@outlook.com</p>
+              <p><i class="fas fa-mobile"></i>: +91-7415602179</p>
+              <p><i class="fab fa-github"></i>: www.github.io/saurabhnema27/</p>
+            </div>
+            <div>
+              <img src="contact1.png" alt="image" height="130">
+            </div>
+      </div>
+    </div>
 </body>
 </html>
